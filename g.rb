@@ -2,10 +2,10 @@ require "formula"
 
 class G < Formula
   homepage "https://github.com/gtool/g"
-  version "1.0.1"
+  version "1.0.2"
 
-  url "https://github.com/gtool/g/archive/v1.0.1.zip"
-  sha1 "f9a3e525b2f6b9648bd7a67db3c2a69316359a6f"
+  url "https://github.com/gtool/g/archive/v1.0.2.zip"
+  sha1 "85f639f50f1f704586b99b2a0c7b2325a59b0bc5"
 
   def install
     bin.install Dir['bin/**']
